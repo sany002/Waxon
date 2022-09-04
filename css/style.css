@@ -1,0 +1,657 @@
+/* All Common CSS Start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common CSS End  */
+
+/* Header CSS Start  */
+.navbar {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.navbar-nav .nav-link {
+	color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    transition: .4s;
+}
+.navbar-nav .nav-link:hover {
+	color: #c7b299;
+   
+}
+
+.sticky_header{
+    animation: sticky .7s;
+    position: fixed;
+    background: #504232;
+    z-index: 99999999;
+    box-shadow: 0px 8px 12px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 8px 12px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 12px -5px rgba(0,0,0,0.75);
+
+}
+@keyframes sticky{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+
+
+
+/* Header CSS End  */
+
+
+
+
+/* Banner CSS Start  */
+#banner{
+   
+    background: url(../images/banner_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.banner_overly{
+    padding: 380px 0px;
+    background: rgba(17, 17, 17, 0.7);
+}
+.banner_text h3{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.banner_text h1{
+    font-size: 52px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.banner_text p {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 24px;
+	color: #fff;
+	padding: 0px 240px;
+}
+.banner_text a{
+    padding: 21px 40px 17px 40px;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    background: #998675;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+/* Banner CSS End  */
+
+/* Service CSS Start  */
+#service{
+    padding: 80px 0px;
+
+}
+.service_item{
+    padding-bottom: 30px;
+}
+.service_icon i{
+    font-size: 50px;
+    color: #555555;
+    transition: .4s;
+}
+
+.service_text h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #555;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    transition: .4s;
+}
+.service_text p{
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    position: relative;
+}
+.service_text p::after{
+    position: absolute;
+    height: 3px;
+    width: 70px;
+    background: #f1eee9;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    transition: .4s;
+}
+.service_item:hover .service_icon i{
+    color: #c7b299;
+}
+.service_item:hover .service_text h3{
+    color: #c7b299;
+}
+.service_item:hover .service_text p::after{
+    background: #c7b299;
+    
+}
+
+/* Service CSS End  */
+
+/* Idea CSS Start  */
+#idea{
+    padding-top: 80px;
+    background: #fbfaf8;
+}
+.idea_text h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #555;
+    font-family: 'Raleway', sans-serif;
+}
+.idea_text p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    color: #8c8c8c;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+/* Idea CSS End  */
+
+
+/* Purchase CSS Start  */
+#purchase{
+    padding:50px 0px;
+    background: linear-gradient(to right, #211b19 , #4e3427);;
+}
+
+.purchase_text h3{
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+}
+.purchase_text span{
+    color: #c7b299;
+
+}
+.purchase_text h4{
+    color: #615855;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.purchase_btn a{
+    padding: 21px 40px 17px 40px;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    background: #998675;
+    text-transform: uppercase;
+}
+/* Purchase  CSS End  */
+
+/* Portfolio CSS Start  */
+#portfolio{
+    padding: 80px 0px;
+}
+.portfolio_btn button{
+    background: transparent;
+    border: 1px solid #ebebeb;
+    padding: 10px 25px;
+     color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+    transition: .4s;
+    border-radius: 5px;
+
+
+}
+.portfolio_btn button:hover{
+    background: #998675;
+    color: #fff;
+    
+
+}
+
+.portfolio_img{
+    position: relative;
+
+}
+.portfolio_overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.7);
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.portfolio_textt{
+    padding: 30px;
+    background: #fbfaf8;
+    transition: .5s;
+}
+.portfolio_textt h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #c7b299;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 15px;
+    transition: .5s;
+}
+.portfolio_textt p{
+   color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    transition: .5s;
+}
+.shape {
+	height: 30px;
+	width: 30px;
+	background:#fbfaf8;
+	position: absolute;
+	transform: rotate(45deg);
+	left: 20px;
+	bottom: -15px;
+    transition: .5s;
+}
+
+.portfolio_item:hover .portfolio_overly{
+    visibility: visible;
+    opacity: 1;
+} 
+.portfolio_item:hover .shape{
+   background: #362f2d;
+} 
+.portfolio_item:hover .portfolio_textt{
+   background: #362f2d;
+} 
+.portfolio_item:hover .portfolio_textt h3{
+   color: #fff;
+} 
+.portfolio_item:hover .portfolio_textt {
+   color: #c7b299;
+} 
+/* Portfolio CSS End  */
+
+
+
+.portfolio_btns a{
+ padding: 21px 40px 17px 40px;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    background: #998675;
+    text-transform: uppercase;
+}
+/* Video CSS Start  */
+#video{
+   
+    background: url(../images/video_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.video_overly{
+ padding-top: 210px;
+    padding-bottom: 260px;
+    background: rgba(17, 17, 17, 0.7);
+}
+.video_text h3{
+     font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.video_text p{
+ font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    color: #fff;
+}
+/* Video CSS End  */
+
+/* Hand With Mob Part Start */
+#hand{
+    padding-top: 80px;
+    background: #fbfaf8;
+}
+.hand_mob_text{
+    padding-top: 115px;
+}
+.hand_mob_text h3{
+     font-size: 30px;
+    font-weight: 500;
+    color: #555;
+    font-family: 'Raleway', sans-serif;
+}
+.hand_mob_text p{
+     color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hand_icon_text{
+    padding-left: 55px;
+}
+.hand_icon_text ul li{
+     color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+.hand_icon_text ul li i{
+    color: #c7b299;
+    margin-right: 10px;
+}
+/* Hand With Mob Part ENd */
+
+/* Counter CSS Start  */
+#counter{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(to right, #211b19, #4e3427);
+}
+
+
+.counter_text h3{
+     color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+      padding-bottom: 20px;
+}
+.counter_text h4{
+  color: #c7b299;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+  
+}
+.counter_text h4::after{
+    height: 2px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    content: "";
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Counter CSS End  */
+
+
+/* Blog CSS Start  */
+#blog{
+    padding: 80px 0px;
+
+}
+.blog_img{
+    position: relative;
+}
+.blog_overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.7);
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.date .up{
+    padding: 10px;
+   background:  #363636;
+   text-align:center;
+   color: #fff;
+   border-top-left-radius:5px;
+   border-top-right-radius:5px;
+   transition: .4s;
+    
+}
+.date .down{
+    padding: 10px;
+    background:  #252525;
+    text-align:center;
+    color: #fff;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    transition: .4s;
+
+
+}
+.date{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.blog_item_text{
+    padding: 30px;
+    transition: .4s;
+
+}
+.blog_item_text h3{
+  font-size: 20px;
+    font-weight: 500;
+    color: #555;
+    font-family: 'Raleway', sans-serif;
+    transition: .4s;
+}
+.blog_item_text p{
+color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    transition: .4s;
+}
+.blog_item_text a{
+    color: #c7b299;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.blog_item_text i{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+.blog_item:hover .blog_overly{
+    opacity: 1;
+    visibility: visible;
+}
+.blog_item:hover .date .up{
+    background:  #c7b299;
+}
+.blog_item:hover .date .down{
+    background:  #a48d72;
+}
+.blog_item:hover .blog_item_text{
+    background:  #362f2d;
+}
+.blog_item:hover .blog_item_text h3{
+  color: #c7b299;
+}
+.blog_item:hover .blog_item_text p{
+  color: #fff;
+}
+
+
+
+/* Blog CSS End  */
+
+
+/* Client CSS Start  */
+#client{
+    padding: 140px 0px;
+    background: url(../images/Client_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Client CSS End  */
+
+/* Top Footer CSS Start  */
+#top_footer{
+    padding: 80px 0px;
+    background: #191919;
+}
+
+.top_footer_fst_txt p{
+    color: #555;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.top_footer_fst_txt a{
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+.top_footer_fst_txt i{
+   margin-left: 10px;
+   vertical-align: middle;
+}
+
+
+.top_common_head{
+    margin-bottom: 30px;
+}
+.top_common_head h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+
+}
+.top_scnd_text h4{
+      color: #363636;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+.top_scnd_text p{
+      color: #555;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    border-bottom: 1px solid #252525;
+    padding-bottom: 20px;
+}
+.top_scnd_text{
+    margin-bottom: 20px;
+}
+/* Top Footer CSS End  */
+
+
+
+/* footer CSS Start  */
+#footer{
+    padding: 50px 0px;
+    background: #111111;
+}
+
+/* footer CSS End  */
+
+/* Back To Top  */
+.back-to-top{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background: teal;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+   
+}
+.back-to-top i{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+/* Back To Top  */

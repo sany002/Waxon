@@ -1,0 +1,136 @@
+
+/* Extra large devices  */
+@media (min-width: 1200px) {}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.navbar-toggler i{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-nav {
+	background: rgb(63, 61, 43);
+    text-align: center;
+}
+
+
+}
+
+
+/* Extra small devices  */
+@media (max-width: 575.98px) {
+.navbar-toggler i{
+    color: #fff;
+    font-size: 30px;
+
+}
+.navbar-nav {
+	background: rgb(63, 61, 43);
+    text-align: center;
+	
+}
+
+
+
+.banner_overly {
+	padding: 120px 0px;
+	
+}
+
+.banner_text h3 {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.banner_text h1 {
+	font-size: 40px;
+	line-height: 34px;
+}
+
+.banner_text p {
+padding: 0px;
+}
+
+
+.idea_text h3 {
+	font-size: 27px;
+	
+	line-height: 28px;
+}
+
+.purchase_text h3 {
+	font-size: 25px;
+	line-height: 30px;
+}
+.purchase_text{
+	text-align: center;
+}
+.purchase_text h4{
+    line-height: 24px;
+}
+.purchase_btn{
+    text-align: center !important;
+    margin-top: 20px;
+   
+}
+
+.portfolio_btn button {
+	padding: 10px 20px;
+	font-size: 10px;
+	margin-right: 2px;
+	margin-bottom: 7px;
+}
+
+.video_overly {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	
+}
+
+.video_text h3 {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.hand_mob_text h3 {
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+.hand_mob_text p {
+	text-align: justify;
+}
+.hand_icon_text {
+	padding-left: 0px;
+}
+.counter_item{
+	padding-bottom: 50px;
+}
+.slick-slide img {
+	display: inline-block;
+}
+.mb_for_img{
+	margin-bottom: 5px !important;
+}
+
+.footer_lft p{
+	line-height: 24px;
+}
+.footer_rit{
+	margin-top: 5px;
+}
+.footer_rit p {
+	text-align: left;
+	line-height: 24px;
+}
+
+}
